@@ -10,7 +10,21 @@ body {
 
 h1 {
     color: green;
+    font-size: 36px
 }
+
+h2 {
+    font-size: 28px:
+}
+
+p {
+  font-size: 18px;
+}
+
+li {
+    font-size: 18px;
+}
+
 
 .logo {
     display: flex;
