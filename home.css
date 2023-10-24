@@ -26,6 +26,10 @@ body {
         font-size: 18px;
     }
 
+    .tcr a {
+      margin-left: 1000px;
+    }
+
 .topnav {
         background-color: lawngreen;
         overflow: hidden;
@@ -64,11 +68,6 @@ body {
         align-items: center;
         background: lawngreen;
         font-size: 18px;
-        position: fixed;
-        bottom: 0;
-      }
-        background: lawngreen;
-        font-size: 1.5rem;
         position: fixed;
         bottom: 0;
       }
