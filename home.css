@@ -1,34 +1,30 @@
 body {
-  background-color:rgb(0, 65, 39);
-  font-family: Arial;
-  background-image: url("tcr.jpg");
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: left 350px top 255px
-  }
+    background-color:rgb(0, 65, 39);
+    font-family: Arial;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    }
 
-  h1 {
-      font-size: 36px;
-      font-weight: bold;
-      margin-left: 700px;
-      color: black;
-  }
-  
-  h2 {
-      font-size: 28px;
-  }
-  
-  p {
-    font-size: 18px;
-  }
-  
-  li {
+    h1 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-left: 600px;
+        color: white;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+    
+    p {
       font-size: 18px;
-  }
-
-  .tcr a {
-    margin-left: 1000px;
-  }
+    }
+    
+    li {
+        font-size: 18px;
+    }
 
 .topnav {
       background-color: lawngreen;
@@ -61,104 +57,13 @@ body {
       color: white;
     }
 
-    footer{
-      width: 100%;
-      padding: 12px;
-      min-height: 4vh;
-      align-items: center;
-      background: lawngreen;
-      font-size: 18px;
-      position: fixed;
-      bottom: 0;
-    }
-
-@media screen and (max-width: 768px) and (min-width: 576px) {
-
-.Adres{
-border-radius: 25px;
-text-align: center;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-background-color: lawngreen;
-width: 600px;
-padding: 50px;
-margin: auto;
-}
-
-.topnav {
-    background-color: lawngreen;
-    overflow: hidden;
-    border-radius: 20%;
-    padding: 5px;
-    margin: auto;
-    height: 20vh;
-    display: flex; 
-}
-
-.topnav a {
-color: black;
-  padding: 5px;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin: auto;
-  
-}
-
-.topnav a:hover {
-background-color: #ddd;
-color: black;
-}
-
-.topnav a.active {
-background-color: #04AA6D;
-color: white;
-}
-
-
-} 
-
-
-@media screen and (max-width: 576px) {
-
-.Adres{
-  border-radius: 25px;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: lawngreen;
-  width: 400px;
-  padding: 50px;
-  margin: auto;
-}
-
-.topnav {
-  background-color: lawngreen;
-    overflow: hidden;
-    border-radius: 20%;
-    padding: 5px;
-    margin: auto;
-    height: 20vh;
-    display: flex;
-  
-}
-
-.topnav a {
-  color: black;
-  padding: 5px;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin: auto;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-
-} 
+      footer{
+        width: 100%;
+        padding: 1rem;
+        min-height: 5vh;
+        align-items: center;
+        background: lawngreen;
+        font-size: 1.5rem;
+        position: fixed;
+        bottom: 0;
+      }
